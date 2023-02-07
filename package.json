@@ -1,0 +1,9 @@
+{
+    "name": "nodejs_start_rocketseat",
+    "version": "1.0.0",
+    "description": "starting studies with nodejs",
+    "main": "index.js",
+    "scripts": {},
+    "author": "Vitor Reis Rubatino",
+    "license": "ISC"
+}
