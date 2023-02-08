@@ -1,0 +1,26 @@
+POST http://localhost:4002/products/
+content-type: application/json
+
+{
+    "name": "Pen",
+    "price": 2
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+GET http://localhost:4002/products/d1676e34-c4a2-4d6f-bd75-5835fbc53cab
+
+###
+PUT http://localhost:4002/products/324f48b3-9e52-42bb-a6cf-69f4b8e22d9c
+content-type: application/json
+
+{
+    "name": "Pencil",
+    "price": 13.00
+}
+
+###
+DELETE http://localhost:4002/products/d54a1688-f597-4c1b-8b09-2f052f63956c
